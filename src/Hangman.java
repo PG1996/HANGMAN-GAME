@@ -11,7 +11,7 @@ import javax.swing.*;
  *
  * @author Parth Goel
  */
-public class Hangman1 extends javax.swing.JFrame {
+public class Hangman extends javax.swing.JFrame {
 
     
     
@@ -19,12 +19,12 @@ public class Hangman1 extends javax.swing.JFrame {
      * Creates new form Hangman1
      */
     
-    public Hangman1() {
+    public Hangman() {
         this.obj = new WinOrLose();
         initComponents();
         jDialog4.setVisible(true);
         jDialog4.setAlwaysOnTop(true);
-     //   Hangman1 hang = new Hangman1();
+     //   Hangman hang = new Hangman();
         String s = quesdis();
         jLabel1.setText(s); 
        // jTextField1.setText("0"); 
@@ -173,7 +173,7 @@ public class Hangman1 extends javax.swing.JFrame {
 
         jDialog2.setBounds(new java.awt.Rectangle(386, 150, 500, 550));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("images/il1jaw.gif"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/il1jaw.gif"))); // NOI18N
 
         jButton30.setText("RESTART");
         jButton30.addActionListener(new java.awt.event.ActionListener() {
@@ -539,7 +539,7 @@ public class Hangman1 extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel2.setText("Number of Wrong Guesses");
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("images/image0.png"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/image0.png"))); // NOI18N
 
         jTextField1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -827,10 +827,10 @@ public class Hangman1 extends javax.swing.JFrame {
         jButton24.setEnabled(true);
         jButton25.setEnabled(true);
         jButton26.setEnabled(true);
-       // Hangman1 hang = new Hangman1();
+       // Hangman hang = new Hangman();
         String s = quesdis();
         jLabel1.setText(s);  
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("images/image0.png")));
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/image0.png")));
         jLabel6.setVisible(true);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton27ActionPerformed
@@ -1443,11 +1443,11 @@ public class Hangman1 extends javax.swing.JFrame {
         jButton24.setEnabled(true);
         jButton25.setEnabled(true);
         jButton26.setEnabled(true);
-     //   Hangman1 hang = new Hangman1();
+     //   Hangman hang = new Hangman();
         String s = quesdis();
         jLabel1.setText(s);  
         jDialog1.setVisible(false);
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("images/image0.png")));
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/image0.png")));
         jLabel6.setVisible(true);
     }//GEN-LAST:event_jButton32ActionPerformed
 
@@ -1486,11 +1486,11 @@ public class Hangman1 extends javax.swing.JFrame {
         jButton24.setEnabled(true);
         jButton25.setEnabled(true);
         jButton26.setEnabled(true);
-//        Hangman1 hang = new Hangman1();
+//        Hangman hang = new Hangman();
         String s = quesdis();
         jLabel1.setText(s);  
         jDialog2.setVisible(false);
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("images/image0.png")));
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/image0.png")));
         jLabel6.setVisible(true);
     }//GEN-LAST:event_jButton30ActionPerformed
 
@@ -1531,7 +1531,7 @@ public class Hangman1 extends javax.swing.JFrame {
         jButton26.setEnabled(true);
           
         jDialog4.setVisible(false);
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("images/image0.png")));
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/image0.png")));
         jLabel6.setVisible(true);
       //  jButton36.setVisible(false);
        // jDialog4.setAlwaysOnTop(false);
@@ -1564,20 +1564,20 @@ public class Hangman1 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Hangman1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Hangman.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Hangman1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Hangman.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Hangman1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Hangman.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Hangman1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Hangman.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
          
-                new Hangman1().setVisible(true);
+                new Hangman().setVisible(true);
                 
 //                JOptionPane.showMessageDialog(null,"Welcome");
                 
